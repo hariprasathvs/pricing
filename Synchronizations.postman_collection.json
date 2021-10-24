@@ -1,0 +1,43 @@
+{
+	"info": {
+		"_postman_id": "3f9807be-e85d-4823-9ee6-01afe36a8581",
+		"name": "Synchronizations",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "synchronize-pricings",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base_uri}}/synchronize-pricings",
+					"host": [
+						"{{base_uri}}"
+					],
+					"path": [
+						"synchronize-pricings"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "synchronizations",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base_uri}}/synchronizations",
+					"host": [
+						"{{base_uri}}"
+					],
+					"path": [
+						"synchronizations"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
